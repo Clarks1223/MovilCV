@@ -1,17 +1,116 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title>Resume</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title class="title" size="large">Software developer</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="column1">
+        <ion-card class="perfil">
+          <div class="imgContainer">
+            <ion-img class="imgPerfil" src="../../assets/img.png"></ion-img>
+          </div>
+          <ion-title>About me</ion-title>
+          <p>
+            I am a disciplined and multilingual worker, with the ability to work
+            effectively with culturally diverse individuals.
+          </p>
+        </ion-card>
+        <ion-grid class="iconsbar">
+          <ion-row class="item">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+            <ion-col>+593 99 552 6244</ion-col>
+          </ion-row>
+          <ion-row class="item">
+            <ion-icon name="mail-unread-outline"></ion-icon>
+            <ion-col>gustavouchuariigmail.com</ion-col>
+          </ion-row>
+          <ion-row class="item">
+            <ion-icon name="home-outline"></ion-icon>
+            <ion-col>La Concepcion - UIO</ion-col>
+          </ion-row>
+          <ion-row class="item">
+            <ion-icon name="car-sport-outline"></ion-icon>
+            <ion-col>Driver's licence</ion-col>
+          </ion-row>
+          <ion-row class="item">
+            <ion-icon name="logo-github"></ion-icon>
+            <ion-col>Git-Hub</ion-col>
+          </ion-row>
+        </ion-grid>
+
+        <ion-title>Language</ion-title>
+
+        <ion-list>
+          <ion-item>
+            <ion-label>Spanish (Native)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>English (Advanced)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Russian (Medium)</ion-label>
+          </ion-item>
+        </ion-list>
+
+        <ion-title>Expertise</ion-title>
+        <ion-content>
+          <ion-list> Problem Solver </ion-list>
+          <ion-list> Team player </ion-list>
+          <ion-list> Leadership </ion-list>
+          <ion-list> Leadership </ion-list>
+          <ion-list> Advanced english fluency, verbal and written. </ion-list>
+          <ion-list> Good comunication skills </ion-list>
+        </ion-content>
+      </ion-col>
+
+      <ion-col class="column2">
+        <ion-card>
+          <h1>Pablo Gustavo Uchuari Quiñonez</h1>
+          <h2>WEB DEVELOPER</h2>
+        </ion-card>
+
+        <ion-title>Experience</ion-title>
+        <ion-card>
+          <h3>Escuela Politecnica Nacional</h3>
+          <h4>QUITO - ECUADOR</h4>
+          <h5>Jun 2023 - Current</h5>
+          <p>Preventive and corrective computer maintenance.</p>
+        </ion-card>
+        <ion-title>EDUCATION</ion-title>
+        <ion-card>
+          <ion-card>
+            <h3>Escuela Politecnica Nacional</h3>
+            <h4>Computer Programmer</h4>
+            <h5>2021 - Current</h5>
+          </ion-card>
+          <ion-card>
+            <h3>State University of Belgorod</h3>
+            <h4>International Comunication</h4>
+            <h5>2017 - 2018</h5>
+          </ion-card>
+        </ion-card>
+
+        <ion-title>Expertise</ion-title>
+        <ion-content>
+          <ion-list>C, C++, Java, Python</ion-list>
+          <ion-list>HTML, CSS, Java Script</ion-list>
+          <ion-list>SQL, Mogo DB</ion-list>
+          <ion-list>Git, Git-Hub</ion-list>
+          <ion-list>React</ion-list>
+          <ion-list>Node JS</ion-list>
+          <ion-list>Figma</ion-list>
+          <ion-list>Scrum</ion-list>
+        </ion-content>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

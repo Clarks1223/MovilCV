@@ -1,0 +1,49 @@
+.title {
+  text-align: center;
+}
+ion-title {
+  text-align: center;
+  align-items: center;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgPerfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  border: 10px solid #666;
+}
+.perfil {
+  text-align: center;
+}
+
+.perfil {
+  align-items: center;
+  text-align: center;
+}
+
+.iconsbar .item {
+  align-items: center;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: #8a8a8a;
+}
+ion-icon {
+  width: 35px;
+  color: #8a8a8a;
+}
+
+ion-content ion-list{
+    color:#8a8a8a;
+    font-size: large;
+}
+
+ion-list ion-item ion-label{
+    color:#8a8a8a;
+    font-size: large;
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MessageService } from '../services/message.service';
 
 @Component({
   selector: 'app-tab3',
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
 
-  constructor() {}
+  constructor(public MessageService:MessageService) {}
+  addNewToMessage(){
+    this.MessageService.addNewToMessage()
+  }
 
 }
