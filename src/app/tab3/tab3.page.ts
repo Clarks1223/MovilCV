@@ -8,9 +8,8 @@ import { MessageService } from '../services/message.service';
 })
 export class Tab3Page {
 
-  constructor(public MessageService:MessageService) {}
-  addNewToMessage(){
-    this.MessageService.addNewToMessage()
-  }
+  constructor(public messageService: MessageService) {}
+
+  // Puedes agregar métodos y lógica necesaria aquí
 
 }

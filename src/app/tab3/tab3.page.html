@@ -1,21 +1,80 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Erick Santillan
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="12" class="ion-text-center">
+        <ion-img src="https://avatars.githubusercontent.com/u/117753868?v=4" style="max-width: 150px; border-radius: 50%; border: 2px solid #ccc;"></ion-img>
+      </ion-col>
+    </ion-row>
 
-  <ion-fab vertical="bottom" horizontal="center" vertical="center" slot="fixed">
-    <ion-fab-button (click)="addNewToMessage()">
-      <ion-icon name="home-outline"></ion-icon>
-    </ion-fab-button>
-  </ion-fab>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Información de contacto</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon name="call"></ion-icon> 09813351236<br>
+            <ion-icon name="mail"></ion-icon> erickstalin12gmail.com<br>
+            <ion-icon name="location"></ion-icon> Colinas del Norte-La Planada<br>
+            <ion-icon name="logo-github"></ion-icon> ErickStalin<br>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Idiomas</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon name="flag"></ion-icon> Español (Nativo)<br>
+            <ion-icon name="globe"></ion-icon> Inglés (Basico)<br>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Acerca de mí</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Me considero una persona comprometida con lo que hago y tengo un enfoque proactivo para resolver problemas. 
+            Apasionado por aprender y colaborar en trabajos en equipo
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Experiencia</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon name="hammer"></ion-icon> Mentor de programación (Escuela William Tell)<br>
+            <ion-icon name="code-working"></ion-icon> Programador web (Konect Soluciones Tecnologicas)<br>
+            <ion-icon name="briefcase"></ion-icon> Secretario y ausiliar de contabilidad (Dong-Il/ Grupo Sermacosa)<br>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Habilidades</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon name="logo-react"></ion-icon> React<br>
+            <ion-icon name="logo-nodejs"></ion-icon> Node JS<br>
+            <ion-icon name="logo-css3"></ion-icon> CSS3<br>
+            <ion-icon name="logo-html5"></ion-icon> HTML5<br>
+            <ion-icon name="logo-javascript"></ion-icon> JavaScript<br>
+            <ion-icon name="logo-python"></ion-icon> Python<br>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
